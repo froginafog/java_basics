@@ -4,7 +4,7 @@ public class Main
 	{
 		boolean true_or_false;   //create variable of the type "boolean" which can store a boolean value (true or false)
 		char one_character;      //create a variable of the type "char" which can store a character
-		byte byte_number;	     //create a variable of the type "byte" which can store a number in the range of -128 to 127
+		byte byte_number;	 //create a variable of the type "byte" which can store a number in the range of -128 to 127
 		short short_number; 	 //create a variable of the type "short_number" which can store a number in the range of -32,768 to 32,767
 		int int_number;          //create a variable of the type "int" which can store an integer number in the range of -27,48,143,648 to 2,147,483,647
 		long long_number;        //create a variable of the type "long" which can store an integer number number in the range of -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
