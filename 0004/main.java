@@ -9,8 +9,8 @@ public class Main
 		int int_number;          //create a variable of the type "int" which can store an integer number in the range of -27,48,143,648 to 2,147,483,647
 		long long_number;        //create a variable of the type "long" which can store an integer number number in the range of -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 		float float_number;      //create a variable of the type "float" which can store floating point number with up to 6 or 7 digits after the decimal point
-		double double_number;    //create a variable of the type "float" which can store floating point number with up to 15 digits after the decimal point                    
-		String message;          //create a variable of the type "float" which can store a sequence of characters 
+		double double_number;    //create a variable of the type "double" which can store floating point number with up to 15 digits after the decimal point                    
+		String message;          //create a variable of the type "string" which can store a sequence of characters 
 		
 		true_or_false = false;
 		one_character = 'T';
