@@ -12,11 +12,11 @@ public class Main
 		/*
 			if(a > b)
 			{
-				larger_number = a
+				larger_number_1 = a
 			}
 			else
 			{
-				larger_number = b
+				larger_number_1 = b
 			}
 		*/
 		
@@ -24,11 +24,11 @@ public class Main
 		/*
 			if(a > c)
 			{
-				larger_number = a
+				larger_number_2 = a
 			}
 			else
 			{
-				larger_number = c
+				larger_number_2 = c
 			}
 		*/
 		
