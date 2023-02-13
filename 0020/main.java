@@ -1,7 +1,7 @@
 public class Main
 {
     public static void main(String[] args)  
-	{
+    {
 		int num_items = 3;
 		int[] array_of_integers = new int[num_items];  
 		
@@ -13,7 +13,7 @@ public class Main
 		{
 			System.out.println("array_of_integers[" + i + "]: " + array_of_integers[i]);
 		}
-	}
+    }
 }
 
 /*
