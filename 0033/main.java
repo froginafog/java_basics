@@ -1,13 +1,10 @@
+//only one "public" class is allowed per file
 public class Main
 {
-	String game_name;
-	int num_players;
-	String[] player_names = new String[4];  //maximum number of players is 4
-
     public static void main(String[] args)  
 	{
-		Main main_object_1 = new Main();
-		Main main_object_2 = new Main();
+		Game main_object_1 = new Game();
+		Game main_object_2 = new Game();
 		
 		main_object_1.game_name = "Game One";
 		main_object_1.num_players = 2;
@@ -33,6 +30,16 @@ public class Main
 		System.out.println("main_object_2.player_names[2]: " + main_object_2.player_names[2]);
 		System.out.println("main_object_2.player_names[3]: " + main_object_2.player_names[3]);
 	}
+}
+
+//additional classes cannot be defined before the class which contains the "main" method
+//additional classes should be defined after the class which contains the "main" method
+//define a class called "Game"
+class Game  
+{
+	String game_name;
+	int num_players;
+	String[] player_names = new String[4];  //maximum number of players is 4
 }
 
 /*
