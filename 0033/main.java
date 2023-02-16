@@ -1,7 +1,7 @@
 //only one "public" class is allowed per file
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{
 		Game main_object_1 = new Game();
 		Game main_object_2 = new Game();
