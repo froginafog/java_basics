@@ -4,7 +4,7 @@ public class Main
 	int num_players;
 	String[] player_names = new String[4];  //maximum number of players is 4
 
-    public static void main(String[] args)  
+        public static void main(String[] args)  
 	{
 		Main main_object_1 = new Main();
 		Main main_object_2 = new Main();
