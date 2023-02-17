@@ -9,7 +9,7 @@ public class Main
 	}
 	//a constructor is called whenever an object of the class is created
 
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{
 		Main main_object_1 = new Main("Game One");
 		Main main_object_2 = new Main("Game Two");
