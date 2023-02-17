@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{
 		int[] array_of_integers = {10, 20, 30};  //define an array of integers
 
