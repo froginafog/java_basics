@@ -6,7 +6,7 @@ public class Main
 		{
 			if(n == 3)  
 			{
-				break;  //when "break" is reached, the program leaves the instance of the "for" loop 
+				break;  //when "break" is reached, the program leaves the "for" loop block
 			}
 			System.out.println("n: " + n);  
 		}
