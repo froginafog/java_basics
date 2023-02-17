@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{
 		boolean true_or_false;   //create variable of the type "boolean" which can store a boolean value (true or false)
 		char one_character;      //create a variable of the type "char" which can store a character
