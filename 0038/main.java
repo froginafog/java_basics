@@ -4,7 +4,7 @@ public class Main
 	
 	public Main(String game_name)  //constructor
 	{
-		System.out.println("A constructor for the class called \"Main\" is created.");
+		System.out.println("A constructor for the class called \"Main\" is called.");
 		this.game_name = game_name;
 	}
 	//a constructor is called whenever an object of the class is created
@@ -20,8 +20,8 @@ public class Main
 }
 
 /*
-A constructor for the class called "Main" is created.
-A constructor for the class called "Main" is created.
+A constructor for the class called "Main" is called.
+A constructor for the class called "Main" is called.
 main_object_1.game_name: Game One
 main_object_2.game_name: Game Two
 */
