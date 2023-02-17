@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{
 		char[] array_of_characters = {'A', 'B', 'C'};
 		int[] array_of_integers = {10, 20, 30};  
