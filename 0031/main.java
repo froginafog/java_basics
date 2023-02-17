@@ -1,36 +1,28 @@
 public class Main
 {
-	static void function_1() 
+	//create a method called "print_message"
+	//we don't need to create an object to use a "static" method
+	//"void" means that the method (or function) does not return a value
+	static void print_message() 
 	{
-		System.out.println("inside function_1");
-		System.out.println("invoking function_2");
-		function_2();
+		System.out.println("Hello Coder");
 	}
 	
-	static void function_2() 
+	static void print_input_message(String input_message)
 	{
-		System.out.println("inside function_2");
-		System.out.println("invoking function_3");
-		function_3();
+		System.out.println(input_message);
 	}
-	
-	static void function_3() 
+
+    public static void main(String[] args)  
 	{
-		System.out.println("inside function_3");
-	}
-	
-    	public static void main(String[] args)  
-	{
-		System.out.println("calling function_1");
-		function_1();
+		print_message();
+		print_input_message("To code or not to code.");
+		print_input_message("To Java or not to Java.");
 	}
 }
 
 /*
-calling function_1
-inside function_1
-invoking function_2
-inside function_2
-invoking function_3
-inside function_3
+Hello Coder
+To code or not to code.
+To Java or not to Java.
 */

@@ -1,28 +1,24 @@
 public class Main
 {
-	//create a method called "print_message"
-	//we don't need to create an object to use a "static" method
-	//"void" means that the method (or function) does not return a value
-	static void print_message() 
+    public static void main(String[] args)  
 	{
-		System.out.println("Hello Coder");
-	}
-	
-	static void print_input_message(String input_message)
-	{
-		System.out.println(input_message);
-	}
-
-    	public static void main(String[] args)  
-	{
-		print_message();
-		print_input_message("To code or not to code.");
-		print_input_message("To Java or not to Java.");
+		for(int n = 0; n <= 5; n++)
+		{
+			if(n == 3)  
+			{
+				continue;  //when "continue" is reached, the program goes to "n++" directly
+			}
+			System.out.println("n: " + n);  
+		}
+		System.out.println("end of the program");
 	}
 }
 
 /*
-Hello Coder
-To code or not to code.
-To Java or not to Java.
+n: 0
+n: 1
+n: 2
+n: 4
+n: 5
+end of the program
 */
