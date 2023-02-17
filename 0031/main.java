@@ -13,7 +13,7 @@ public class Main
 		System.out.println(input_message);
 	}
 
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{
 		print_message();
 		print_input_message("To code or not to code.");
