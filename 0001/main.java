@@ -11,7 +11,7 @@ public class Main
 //"{" marks the beginning of this class
 
 	//define the "main" method
-   	 public static void main(String[] args)  //this line must exist for every java program
+   	public static void main(String[] args)  //this line must exist for every java program
 	{
 		//"{" marks the beginning of this method 
 		
