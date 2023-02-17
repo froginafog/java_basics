@@ -1,15 +1,15 @@
 public class Main
 {
-    public static void main(String[] args)  
+        public static void main(String[] args)  
 	{
 		Game game_object_1 = new Game();
 		Game game_object_2 = new Game();
 		String[] array_of_player_names_1 = {"Player One In Game One", 
 		                                    "Player Two In Game One"};                                  
 		String[] array_of_player_names_2 = {"Player One In Game Two",
-											"Player Two In Game Two",
-											"Player Three In Game Two",
-											"Player Four In Game Two"};								
+						    "Player Two In Game Two",
+						    "Player Three In Game Two",
+						    "Player Four In Game Two"};								
 		String[] array_of_player_names;
 		
 		game_object_1.set_game_name("Game One");
