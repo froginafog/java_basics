@@ -1,12 +1,7 @@
 public class Main
 {
     	public static void main(String[] args)  
-	{	
-		String[] array_of_player_names = {"Player One", 
-		                                  "Player Two",
-		                                  "Player Three",
-		                                  "Player Four"};                                  
-		
+	{		
 		Game game_object = new Game();
 		
 		game_object.add_player_name("Player One");
