@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	
 		String[] array_of_player_names = {"Player One", 
 		                                  "Player Two",
