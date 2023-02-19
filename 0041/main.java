@@ -1,6 +1,6 @@
 public class Main
 {
-    	public static void main(String[] args)  
+    public static void main(String[] args)  
 	{	                 
 		Game game_object = new Game();
 		String player_name;
@@ -42,6 +42,7 @@ public class Main
 		System.out.println("--------------------4--------------------");
 		
 		game_object.push_player_name("Player Five");
+		System.out.println("Player Names:");
 		for(int i = 0; i < game_object.player_names.length; i++)
 		{
 			System.out.println(game_object.player_names[i]);
@@ -176,6 +177,7 @@ Player Three
 Player Four
 --------------------4--------------------
 array of player_names is full
+Player Names:
 Player One
 Player Two
 Player Three
