@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	                 
 		Game game_object_1 = new Game("Game One");  
 		Game game_object_2 = new Game(2);
