@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	             
 		Player player_object_1 = new Player();  //create an object of the derived class "Player"
 		Player player_object_2 = new Player();  //create another object of the derived class "Player"
