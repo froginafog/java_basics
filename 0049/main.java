@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	             
 		Player player_object = new Player();
 		//creating an object of a derived class also invokes the constructor of the base class
