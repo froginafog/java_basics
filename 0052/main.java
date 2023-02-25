@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	             
 		Status status_object = new Status("Initial Game Name", "Initial Player Name", "Initial Status Name");
 		
