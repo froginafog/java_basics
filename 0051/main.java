@@ -28,7 +28,7 @@ class Player extends Game
 
 	Player(String game_name, String player_name)
 	{
-		super(game_name);  
+		super(game_name);  //calls the constructor of the Game class
 		System.out.println("constructor of the \"Player\" class is called");
 		this.player_name = player_name;
 	}
@@ -40,7 +40,7 @@ class Status extends Player
 	
 	Status(String game_name, String player_name, String status_name)
 	{
-		super(game_name, player_name); 
+		super(game_name, player_name);  //calls the constructor of the Player
 		System.out.println("constructor of the \"Status\" class is called");
 		this.status_name = status_name;
 	}
