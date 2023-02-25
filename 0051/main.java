@@ -40,7 +40,7 @@ class Status extends Player
 	
 	Status(String game_name, String player_name, String status_name)
 	{
-		super(game_name, player_name);  //calls the constructor of the Player
+		super(game_name, player_name);  //calls the constructor of the Player class
 		System.out.println("constructor of the \"Status\" class is called");
 		this.status_name = status_name;
 	}
