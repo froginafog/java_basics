@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	             
 		String original_string = "C++, Java, Python, Javascript";
 		String original_string_in_upper_case = original_string.toUpperCase();
