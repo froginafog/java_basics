@@ -12,7 +12,7 @@
 
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	             
 		System.out.println("Message.default_welcome_message: " + Message.default_welcome_message);
 		System.out.println("Message.default_goodbye_message: " + Message.default_goodbye_message);
