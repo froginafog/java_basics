@@ -12,7 +12,7 @@
 
 public class Main
 {
-    public static void main(String[] args)  
+   	public static void main(String[] args)  
 	{	             
 		System.out.println("Message.default_welcome_message: " + Message.default_welcome_message);
 		System.out.println("Message.default_goodbye_message: " + Message.default_goodbye_message);
@@ -48,14 +48,14 @@ class Game implements Message
 {
 	String game_name;
 	
-    public void print_welcome_message()  
-    {
+    	public void print_welcome_message()  
+    	{
 		System.out.println(default_welcome_message + " to " + game_name);
 	}
 	//This method must be public because it is part of an "interface".
 	
 	public void print_goodbye_message()
-    {
+    	{
 		System.out.println(default_goodbye_message + " " + game_name);
 	}
 	//This method must be public because it is part of an "interface".
