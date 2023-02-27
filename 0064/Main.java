@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)  
+    	public static void main(String[] args)  
 	{	             
 		String original_string = "C++, Java, Python, Javascript";
 		String sought_string_1 = "Python";
