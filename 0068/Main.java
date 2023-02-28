@@ -34,7 +34,7 @@ class Game
 		{
 			return game_name;
 		}
-		//we can use a method in the inner class to access a member of the outer class
+		//we can use a method in the inner class to access a member of an outer class
 
 		class Region  
 		{
@@ -44,7 +44,7 @@ class Game
 			{
 				return level_name;
 			}
-			//we can use a method in the inner class to access a member of the outer class
+			//we can use a method in the inner class to access a member of an outer class
 		}
 	}
 }
