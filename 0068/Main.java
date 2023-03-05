@@ -1,6 +1,6 @@
 public class Main
 {
-    	public static void main(String[] args)  
+    public static void main(String[] args)  
 	{	             
 		Game game_object = new Game();
 		Game.Level level_object = game_object.new Level();
