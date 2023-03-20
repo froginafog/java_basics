@@ -5,11 +5,11 @@ public class Main
 	public static void main(String[] args)
 	{
 		String[][] matrix_A = {{"A11", "A12"},
-							   {"A21", "A22"},
-							   {"A31", "A32"}};
+				       {"A21", "A22"},
+				       {"A31", "A32"}};
 		String[][] matrix_B = {{"B11", "B12"},
-							   {"B21", "B22"},
-							   {"B31", "B32"}};
+				       {"B21", "B22"},
+				       {"B31", "B32"}};
 	
 		ArrayList<String[][]> array_list_of_matrices = new ArrayList<String[][]>();
 		
