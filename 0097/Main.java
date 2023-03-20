@@ -86,7 +86,7 @@ class MyArray
 		{
 			array_of_doubles = new double[num_items];
 		}
-		else if(array_type == "String")
+		else if((array_type == "String") || (array_type == "string"))
 		{
 			array_of_strings = new String[num_items];
 		}
