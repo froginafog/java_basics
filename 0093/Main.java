@@ -21,6 +21,7 @@ public class Main
 		game_object.add_player(player_object_3);
 		game_object.add_player(player_object_4);
 		
+		System.out.println("list of player names:");
 		game_object.print_player_names();
 		
 		String name_of_player_to_be_replaced;
@@ -109,6 +110,7 @@ class Game
 }
 
 /*
+list of player names:
 Player One
 Player Two
 Player Three

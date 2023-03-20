@@ -24,29 +24,23 @@ public class Main
 		System.out.println("list of player names:");
 		game_object.print_player_names();
 		
-		String name_of_player_to_be_removed;
+		Player new_player_object_2 = new Player();
+		new_player_object_2.player_name = "New Player Two";
 		
-		System.out.println("--------------------------------------------");
+		Player new_player_object_4 = new Player();
+		new_player_object_4.player_name = "New Player Four";
 		
-		name_of_player_to_be_removed = "Player Five";
-		game_object.remove_player(name_of_player_to_be_removed);
+		System.out.println("-----------------------------------------------------------------------------------");
+		
+		game_object.replace_player(player_object_2, new_player_object_2);
 		System.out.println("list of player names:");
 		game_object.print_player_names();
 		
-		System.out.println("--------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------------------");
 		
-		name_of_player_to_be_removed = "Player Four";
-		game_object.remove_player(name_of_player_to_be_removed);
+		game_object.replace_player(player_object_4, new_player_object_4);
 		System.out.println("list of player names:");
 		game_object.print_player_names();
-		
-		System.out.println("--------------------------------------------");
-		
-		name_of_player_to_be_removed = "Player Two";
-		game_object.remove_player(name_of_player_to_be_removed);
-		System.out.println("list of player names:");
-		game_object.print_player_names();
-		System.out.println("--------------------------------------------");
 	}
 }
 
@@ -70,34 +64,30 @@ class Game
 		array_list_of_players.add(player_object);
 	}
 	
-	//Remove player by searching for player name.
-	void remove_player(String player_name)
+	//Replace a player object by another player object by matching the player name
+	void replace_player(Player player_object, Player new_player_object)
 	{
-		boolean player_is_found = false;
+		boolean player_is_replaced = false;
 		int num_players = array_list_of_players.size();
 		int i = 0;
+		
 		while(i < num_players)
 		{
-			if(player_name == array_list_of_players.get(i).player_name)
+			if(player_object.player_name == array_list_of_players.get(i).player_name)
 			{
-				player_is_found = true;
-				array_list_of_players.remove(i);
-				num_players = array_list_of_players.size();
+				array_list_of_players.set(i, new_player_object);
+				player_is_replaced = true;
 			}
-			else
-			{
-				i++;
-			}
+			i++;
 		}
 		
-		if(player_is_found == true)
+		if(player_is_replaced == true)
 		{
-			System.out.println("The player \"" + player_name + "\" is removed.");
+			System.out.println("The player \"" + player_object.player_name + "\" is replaced with the player \"" + new_player_object.player_name + "\".");
 		}
 		else
 		{
-			
-			System.out.println("The player \"" + player_name + "\" is not found.");
+			System.out.println("The player \"" + player_object.player_name  + "\" is not replaced because it is not found.");
 		}
 	}
 	
@@ -116,25 +106,20 @@ Player One
 Player Two
 Player Three
 Player Four
---------------------------------------------
-The player "Player Five" is not found.
+-----------------------------------------------------------------------------------
+The player "Player Two" is replaced with the player "New Player Two".
 list of player names:
 Player One
-Player Two
+New Player Two
 Player Three
 Player Four
---------------------------------------------
-The player "Player Four" is removed.
+-----------------------------------------------------------------------------------
+The player "Player Four" is replaced with the player "New Player Four".
 list of player names:
 Player One
-Player Two
+New Player Two
 Player Three
---------------------------------------------
-The player "Player Two" is removed.
-list of player names:
-Player One
-Player Three
---------------------------------------------
+New Player Four
 */
 
 
